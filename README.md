@@ -44,8 +44,5 @@ docker-compose up -d --build
 
 ## APIs
 
-```mermaid
-sequenceDiagram
     POST /auth/register: register new user and send otp code for entered phone
     POST /auth/verify-otp: get phone and otp and verify if its ok
-```
